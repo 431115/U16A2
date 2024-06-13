@@ -1,0 +1,40 @@
+C:\Users\ugniu\Desktop\ToDoList\bin\Debug\net8.0-windows\ToDoList.exe
+C:\Users\ugniu\Desktop\ToDoList\bin\Debug\net8.0-windows\ToDoList.deps.json
+C:\Users\ugniu\Desktop\ToDoList\bin\Debug\net8.0-windows\ToDoList.runtimeconfig.json
+C:\Users\ugniu\Desktop\ToDoList\bin\Debug\net8.0-windows\ToDoList.dll
+C:\Users\ugniu\Desktop\ToDoList\bin\Debug\net8.0-windows\ToDoList.pdb
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList_MarkupCompile.cache
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList_MarkupCompile.lref
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList.g.resources
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList.AssemblyInfoInputs.cache
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList.AssemblyInfo.cs
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList.dll
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\refint\ToDoList.dll
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList.pdb
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ToDoList.genruntimeconfig.cache
+C:\Users\ugniu\Desktop\ToDoList\obj\Debug\net8.0-windows\ref\ToDoList.dll
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\bin\Debug\net8.0-windows\ToDoList.exe
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\bin\Debug\net8.0-windows\ToDoList.deps.json
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\bin\Debug\net8.0-windows\ToDoList.runtimeconfig.json
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\bin\Debug\net8.0-windows\ToDoList.dll
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\bin\Debug\net8.0-windows\ToDoList.pdb
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList_MarkupCompile.cache
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList_MarkupCompile.lref
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList.g.resources
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList.AssemblyInfoInputs.cache
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList.AssemblyInfo.cs
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList.dll
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\refint\ToDoList.dll
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList.pdb
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ToDoList.genruntimeconfig.cache
+C:\Users\ugniu\Desktop\U16 A2\ToDoList\obj\Debug\net8.0-windows\ref\ToDoList.dll
