@@ -247,6 +247,7 @@ I have forgot to add the code to actually delete the task from the list. I have 
 ![alt text](<imgs/after P1.png>)
 
 I have found that you can select previous dates in the date picker when setting a task which is not needed for tasks because you dont need to set tasks in the past. I have made changes to the code so when the user trys to put a date that before today it will tell the and wont add the task. 
+
 ![alt text](<imgs/Date.png>)
 
 ### problem 2
