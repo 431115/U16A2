@@ -246,7 +246,7 @@ I have forgot to add the code to actually delete the task from the list. I have 
 
 ![alt text](<imgs/after P1.png>)
 
-I have found that you can select previous dates in the date picker which is not needed for tasks that are due in the past. In the next version of the code I will make it so you are unable to select previous dates.
+I have found that you can select previous dates in the date picker when setting a task which is not needed for tasks because you dont need to set tasks in the past. In the next version of the code I will make it so you are unable to select previous dates.
 
 ### problem 2
 I have changed it so the columns it uses to generate the hash is not set to 0 so it reads all the columns instead of just the first one.
