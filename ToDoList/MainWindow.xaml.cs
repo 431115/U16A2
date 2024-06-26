@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
@@ -39,7 +39,7 @@ namespace ToDoList
         {
             if (TaskList.SelectedItem is TaskItem selectedTask) // Checks if a task is selected
             {
-                Tasks.Remove(selectedtask); // Removes the selected task from the Tasks collection
+                Tasks.Remove(selectedTask); // Removes the selected task from the Tasks collection
             }
         }
 
