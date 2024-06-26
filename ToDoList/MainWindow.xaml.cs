@@ -22,6 +22,12 @@ namespace ToDoList
         // Event handler for adding a new task
         private void AddTask_Click(object sender, RoutedEventArgs e)
         {
+            // makes sure you select a date thats not before today
+            if (DueDatePicker.SelectedDate < DateTime.Today)
+            {
+                MessageBox.Show("Please select a valid date.", "Invalid Date", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
             // Creates a new TaskItem with input values
             var newTask = new TaskItem
             {
