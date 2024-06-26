@@ -206,7 +206,7 @@ function Print(message):
 | add 15 testing tasks                                            | scroll bar added allowing scrolling                    | scroll bar added allowing scrolling                     |
 
 
-While testing the code I found that the show completed tasks button does not work as expected. When the button is checked it will only show the incomplete tasks and when it is unchecked it will show all the tasks. I will fix this problem in the next version of the code.
+While testing the code I found that the show completed tasks button does not work as expected. When the button is checked it will only show the completed tasks and when it is unchecked it will only show incompleted tasks not all of them. I will fix this problem in the next version of the code.
 
 
 ### problem 2
