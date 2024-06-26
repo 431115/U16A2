@@ -204,6 +204,11 @@ function Print(message):
 | click Mark as completed to see if the status on the             | test - testing description Due 07/06/2024 - Completed  | test - testing description Due 07/06/2024 - Completed   |
 | click delete task and see if the selected task is deleted       | removes the selected task                              | removes the selected task                               |
 | add 15 testing tasks                                            | scroll bar added allowing scrolling                    | scroll bar added allowing scrolling                     |
+
+
+While testing the code I found that the show completed tasks button does not work as expected. When the button is checked it will only show the incomplete tasks and when it is unchecked it will show all the tasks. I will fix this problem in the next version of the code.
+
+
 ### problem 2
 
 | Test                                                             | Expected results                                              | actual results                          |
@@ -241,6 +246,8 @@ I have forgot to add the code to actually delete the task from the list. I have 
 
 ![alt text](<imgs/after P1.png>)
 
+I have found that you can select previous dates in the date picker which is not needed for tasks that are due in the past. In the next version of the code I will make it so you are unable to select previous dates.
+
 ### problem 2
 I have changed it so the columns it uses to generate the hash is not set to 0 so it reads all the columns instead of just the first one.
 
@@ -251,9 +258,36 @@ I have changed it so the columns it uses to generate the hash is not set to 0 so
 ## Justification
 I believe that I have met the requirements for the problems and have provided a good solution to the problems. 
 
-For problem 1 the reason why I added all the buttons I have is because they are the basic needs for a to do list without making it to over complicated and hard to use. As for text boxes I wanted the users to be able to put detailed information in the task to make it easier to understand later on. The date picker is so the user can set a due date for the task if they need to. As for the show completed tasks I wanted feel like having the user be able to see what task are completed will allow them to focus on other tasks.
+### For problem 1.
+The reason why I added all the buttons I have is because they are the basic needs for a to do list without making it to over complicated and hard to use. As for text boxes I wanted the users to be able to put detailed information in the task to make it easier to understand later on. The date picker is so the user can set a due date for the task if they need to. As for the show completed tasks I wanted feel like having the user be able to see what task are completed will allow them to focus on other tasks.
 
-For problem 2. The reason I chose hashing as the way to index the books is because it's the easiest way to give unique numbers to each book. With hashing you can change the size of the hash number if your working with large amount of data. Another reason why hashing is the best for this solution is because it's almost impossible to generate the same hash number for two different data sets. This means that the library will not have to worry about two books having the same index number.
+Data binding in WPF applications allows the connection between the UI code and the business logic code. Example of this would be:
+
+XAML
+```csharp
+<ListBox x:Name="TaskList" Margin="0,0,0,10" Background="White" BorderBrush="#ccc" BorderThickness="1" Height="250" MaxHeight="250" />
+```
+
+Code-Behind
+```csharp
+public MainWindow()
+{
+    InitializeComponent(); // Initializes the UI components
+    Tasks = new ObservableCollection<TaskItem>(); // Initializes the Tasks collection
+    TaskList.ItemsSource = Tasks; // Binds the Tasks collection to the TaskList UI element
+}
+```
+
+By using data binding the code for managing the tasks (adding, deleting, updating) is kept in the code-behind (MainWindow.xaml.cs) while the XAML file (MainWindow.xaml) focuses on the UI layout. This separation makes the code cleaner and easier to manage/update. Binding the ItemsSource property of the ListBox to the Tasks collection (TaskList.ItemsSource = Tasks;) ensures that the ListBox always displays the current state of the task collection. This means that when a task is added, deleted, or updated, the ListBox will automatically reflect those changes without needing to manually refresh it.
+
+XAML's declarative syntax for data binding is more readable and maintainable. It clearly shows which properties of UI elements are bound to which data sources making the code easier to understand and modify. Data binding also allows more flexibility in the UI layout as the data is separate from the UI elements. This means that changes to the data structure do not require changes to the UI layout code and that also means that you can use it in multiple places in the code without having to write the same code over and over again.
+
+Data binding in the WPF application makes a clean separation in the code between the UI and the actual code behind it all which makes it easier to read and understand. This makes it easier to maintain and update the code in the future.
+
+### For problem 2.
+The reason I chose hashing as the way to index the books is because it's the easiest way to give unique numbers to each book. With hashing you can change the size of the hash number if your working with large amount of data. Another reason why hashing is the best for this solution is because it's almost impossible to generate the same hash number for two different data sets. This means that the library will not have to worry about two books having the same index number.
+
+The reason why I used MD5 hashing is because its very simple and fast hashing algorithm. This code is based on the assumption that the data is not sensitive and does not require a more secure hashing algorithm which is why I used MD5 hashing algorithm for my solution. MD5 algorithm outputs a 128-bit hash value which is represented as a 32-character hexadecimal number. That being the case it makes it easier to turn that hash number into a 8 digit number. MD5 hashing algorithm has been around for a long time which means that it is well tested and has been proven to be reliable and that means a lot of people have used it for their libraries, also MD5 is a widely used hashing algorithm which means that it is supported by many programming languages and libraries.
 
 ## Evaluation
 When it came to writing the code I have found it difficult to work with writing/reading CSV files as that was new for me. One of the hardest problems I faced was trying to get the code to make a new CSV file with all the original data plus having a new column with the hashed numbers. I think I have improved with making CSV files and I feel a lot more confidant in being able to make a better one next time. 
